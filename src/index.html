@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyData : Norwich</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/posts.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+        <div class="navbar-logo">
+                <a href="/"><img src="images/pydata_large.png"></a>
+                <h2>: Norwich</h2>
+        </div>
+        <div class="hamburger" onclick="showNavbar()">&#9776;</div>
+        <ul class="navbar-links">
+            <li><a href="https://www.pydata.org">PyData</a></li>
+            <li><a href="/events.html">Events</a></li>
+            <li class="dropdown">
+                <a class="dropdown-button" onclick="showDropDown(this)">Resources</a>
+                <div class="dropdown-content">                   
+                    <a href="#">Getting started</a>
+                    <a href="#">Python</a>
+                    <a href="#">Data Science</a>
+                    <a href="#">Artificial Intelligence</a>
+                    <a href="#">Web development</a>
+                </div>
+            </li>
+            <li><a href="/jobs.html">Jobs</a></li>
+            <li><a href="/about.html">About Us</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-header">
+                <img class="hero-logo" src="images/pydata_large.png">
+                <h1><span>:</span> Norwich</h1>
+            </div>
+            <p>Python and Data Science meetups in Norwich</p>
+            <div class="hero-links">
+                <a href="https://www.meetup.com/pydata-norwich" class="btn btn-blue">Meetup</a>
+                <a href="https://www.pydata.org" class="btn btn-orange" style="margin-left: 5px;">PyData</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="post">
+            <div class="post-image">
+                <img src="images/landscape_cropped.jpg">
+            </div>
+            
+            <div class="post-main">
+
+                <div class="post-content">
+                    <div class="post-header">
+                        <h2>Welcome to PyData Norwich</h2>
+                        <div class="ident">
+                            <div class="ident-block ident-block-blue"></div>
+                            <div class="ident-block ident-block-orange"></div>
+                            <div class="ident-block ident-block-blue"></div>
+                        </div>
+                    </div>
+                    
+                    <p>
+                        We hold regular meetups at the Artlist offices in Norwich.
+                        If you're interested in anything to do with Python, Data Science, Artificial Intelligence, Machine Learning, Data Analytics and more, please join us in a friendly and welcoming environment.
+                        We hold speaking events, workshops and regular social get-togethers if you're just looking to connect with others in the field.
+                    </p>
+                    
+                    <p>
+                        You can check out past and future events on the <a href="/events">events page</a> or head over to our <a href="https://www.meetup.com/pydata-norwich">Meetup group</a>.
+                    </p>
+
+                </div>
+
+                <div class="post-footer">
+                    <a href="https://www.meetup.com/pydata-norwich" class="btn btn-blue">Meetup</a>
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-image">
+                <img src="images/pydata_small.png" style="padding: 40px">
+            </div>
+            
+            <div class="post-main">
+
+                <div class="post-content">
+                    <div class="post-header">
+                        <h2>What is PyData?</h2>
+                        <div class="ident">
+                            <div class="ident-block ident-block-blue"></div>
+                            <div class="ident-block ident-block-orange"></div>
+                            <div class="ident-block ident-block-blue"></div>
+                        </div>
+                    </div>
+                    <p>
+                        PyData is an educational program of <a href="https://numfocus.org/">NumFOCUS</a>, a nonprofit charity promoting open practices in research, data, and scientific computing. It provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other.
+                    </p>
+
+                    <p>
+                        PyData aims to be an accessible, community-driven conference, with novice to advanced level presentations. PyData tutorials and talks bring attendees the latest project features along with cutting-edge use cases.
+                    </p>
+                    
+                </div>
+
+                <div class="post-footer">
+                    <a href="https://www.pydata.org" class="btn btn-blue">Learn more</a>
+                </div>
+            
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+
+        function showNavbar() {
+            document.querySelector('.navbar-links').classList.toggle('show')
+        }
+        function showDropDown(button) {
+            const dropdown = button.parentElement
+            
+            content = dropdown.querySelector('.dropdown-content')
+            content.classList.toggle('show')
+        }
+    </script>
+
+
+    </body>
+</html>

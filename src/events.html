@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyData : Norwich</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/posts.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+        <div class="navbar-logo">
+                <a href="/"><img src="images/pydata_large.png"></a>
+                <h2>: Norwich</h2>
+        </div>
+        <div class="hamburger" onclick="showNavbar()">&#9776;</div>
+        <ul class="navbar-links">
+            <li><a href="https://www.pydata.org">PyData</a></li>
+            <li><a href="/events.html">Events</a></li>
+            <li class="dropdown">
+                <a class="dropdown-button" onclick="showDropDown(this)">Resources</a>
+                <div class="dropdown-content">                   
+                    <a href="#">Getting started</a>
+                    <a href="#">Python</a>
+                    <a href="#">Data Science</a>
+                    <a href="#">Artificial Intelligence</a>
+                    <a href="#">Web development</a>
+                </div>
+            </li>
+            <li><a href="/jobs.html">Jobs</a></li>
+            <li><a href="/about.html">About Us</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <div class="page-title-section">
+        <div class="container page-title-content">
+            <div class="page-title-header">
+                <h1>Events</h1>
+            </div>
+            <p>Checkout our upcoming and past events here.</p>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="post">
+            <div class="post-image">
+                <img src="images/ds_02.jpg" style="padding: 20px">
+            </div>
+            
+            <div class="post-main">
+
+                <div class="post-content">
+                    <div class="post-header">
+                        <h2>Get Together / Website ideas</h2>
+                        <div class="ident">
+                            <div class="ident-block ident-block-blue"></div>
+                            <div class="ident-block ident-block-orange"></div>
+                            <div class="ident-block ident-block-blue"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="event-subheader">
+                        <div class="event-date">
+                            6th May 2025
+                        </div>
+
+                        <div><button class="show-hide-btn" onclick="showDetails(this)" data-show="false">show details</button></div>
+                    </div>
+                    
+                    <div class="event-details">
+                        <p class="event-heading">Details:</p>
+
+                        <p>
+                        Welcome back to PyData Norwich (Formerly Data Science Norfolk). After a bit of a hiatus we have returned under the PyData umbrella!!
+
+                        This event is primarily a chance to meet up again and discuss what's been going on in Python/Data Science recently. However a number of people have raised the possibility of having a website related to the group to help with things like
+                        </p>
+
+                        <ul>
+                            <li>Getting started in both Python and Data Science and how to improve those skills.</li>
+                            <li>Advice and tips when looking for jobs.</li>
+                            <li>Knowing where to find useful resources.</li>
+                        </ul>
+
+                        <p>
+                        The plan is therefore to have some informal discussions about what would be useful and crowdsource some suggestions of relevant content (mainly links to good resources) tailored to Norwich.
+
+                        If you do not wish to contribute or feel you don't have the experience you are still very welcome to join and listen to the discussions, Late-comers are also welcome.
+
+                        Afterwards we will go to the pub!
+                        </p>
+                        
+                        <p class="event-heading event-detail">Location:</p>
+                        <p class="event-detail">
+                            Artlist, 27 St Giles St, Norwich NR2 1JN (use buzzer no. 4)
+                        </p>
+                        
+                        <p class="event-heading event-detail">Event details:</p>
+
+                        <ul class="event-detail">
+                            <li>17:45 - 18:00 Arrival (+Free Pizza and Drinks)</li>
+                            <li>18:00 - 19:00 Website ideas discussion</li>
+                            <li>19:00 - 21:00 Pub visit (Coach and Horses)</li>
+                        </ul>
+                        
+                    </div>
+
+                    <div class="post-footer">
+                        <a href="https://www.meetup.com/pydata-norwich/events/308790878" class="btn btn-blue">Sign up</a>
+                    </div>
+               
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-image">
+                <img src="images/ds_02.jpg" style="padding: 20px">
+            </div>
+            
+            <div class="post-main">
+
+                <div class="post-content">
+                    <div class="post-header">
+                        <h2>Python and Data Science Get Together*</h2>
+                        <div class="ident">
+                            <div class="ident-block ident-block-blue"></div>
+                            <div class="ident-block ident-block-orange"></div>
+                            <div class="ident-block ident-block-blue"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="event-subheader">
+                        <div class="event-date">
+                            6th May 2025
+                        </div>
+
+                        <div><button class="show-hide-btn" onclick="showDetails(this)" data-show="false">show details</button></div>
+                    </div>
+                    
+                    <div class="event-details">
+                        <p class="event-heading">Details:</p>
+
+                        <p>
+                        An inpromptu gathering. No talks this time!
+
+                        We will be meeting at the Playhouse Bar for a drink and to discuss all things Python/Data-related (and more).
+
+                        Whether you are just starting out or an experienced developer you are welcome to come along. We will be there from 5.30pm onwards.
+                        </p>
+                    </div>
+               
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-image">
+                <img src="images/ds_02.jpg" style="padding: 20px">
+            </div>
+            
+            <div class="post-main">
+
+                <div class="post-content">
+                    <div class="post-header">
+                        <h2>Informal Insights: Python & Data Science Meetup*</h2>
+                        <div class="ident">
+                            <div class="ident-block ident-block-blue"></div>
+                            <div class="ident-block ident-block-orange"></div>
+                            <div class="ident-block ident-block-blue"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="event-subheader">
+                        <div class="event-date">
+                            17th March 2025
+                        </div>
+
+                        <div><button class="show-hide-btn" onclick="showDetails(this)" data-show="false">show details</button></div>
+                    </div>
+                    
+                    <div class="event-details">
+                        <p class="event-heading event-detail">Details:</p>
+
+                        <p class="event-detail">
+                        If you're interested in all things Python/Data Science related then join us for an evening of talks and discussion.
+
+                        This is a very informal event where we will have a couple of 30 mins presentations (see details below) with plently of room for questions. Afterwards we'll take a trip to the local pub for anyone that wants to come along.
+                        </p>
+
+                        <p class="event-heading event-detail">Location:</p>
+
+                        <p class="event-detail">
+                        Artlist, 27 St Giles St, Norwich NR2 1JN (use buzzer no. 4)
+                        </p>
+
+                        <p class="event-heading event-detail">Event outline:</p>
+
+                        <ul class="event-detail">
+                        <li>5.45 - 6.00 PM Arrival</li>
+                        <li>6.00 - 7.00 PM Talks + questions</li>
+                        <li>7.00 - 9.00 Pub visit (location TBD)</li>
+                        </ul>
+
+                        <p class="event-heading">Presentations:</p>
+
+                        <ol>
+                        <li>
+                            <p class="presentation-header"><span>Ben Askew-Gale <i>(NatWest)</i></span> - <b>The Rustification of Python</b></p>
+                            <p class="presentation-description">
+                                How Rust is making the Python ecosystem better
+                            </p>
+                        </li>
+
+                        <li>
+                            <p class="presentation-header"><span>Patrick Ogilvie <i>(Socialfunnel)</i></span> - <b>Why A/B Testing sucks</b></p>
+                            <p class="presentation-description">
+                                Re-thinking User Journeys and Conversion Rates with column-oriented and graph databases.
+                            </p>
+                        </li>
+
+                        </ol>
+                    </div>
+               
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-image">
+                <img src="images/ds_02.jpg" style="padding: 20px">
+            </div>
+            
+            <div class="post-main">
+
+                <div class="post-content">
+                    <div class="post-header">
+                        <h2>Informal Insights: Python & Data Science Meetup*</h2>
+                        <div class="ident">
+                            <div class="ident-block ident-block-blue"></div>
+                            <div class="ident-block ident-block-orange"></div>
+                            <div class="ident-block ident-block-blue"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="event-subheader">
+                        <div class="event-date">
+                            10th February 2025
+                        </div>
+
+                        <div><button class="show-hide-btn" onclick="showDetails(this)" data-show="false">show details</button></div>
+                    </div>
+                    
+                    <div class="event-details">
+                        <p class="event-heading event-detail">Details:</p>
+
+                        <p class="event-detail">
+                        If you're interested in all things Python/Data Science related then join us for an evening of talks and discussion.
+
+                        This is a very informal event where we will have a couple of 30 mins presentations (see details below) with plently of room for questions. Afterwards we'll take a trip to the local pub for anyone that wants to come along.
+                        </p>
+
+                        <p class="event-heading event-detail">Location:</p>
+
+                        <p class="event-detail">
+                        Artlist, 27 St Giles St, Norwich NR2 1JN (use buzzer no. 4)
+                        </p>
+
+                        <p class="event-heading event-detail">Event outline:</p>
+
+                        <ul class="event-detail">
+                        <li>5.45 - 6.00 PM Arrival</li>
+                        <li>6.00 - 7.00 PM Talks + questions</li>
+                        <li>7.00 - 9.00 Pub visit (location TBD)</li>
+                        </ul>
+
+                        <p class="event-heading">Presentations:</p>
+
+                        <ol>
+                        <li>
+                            <p class="presentation-header"><span>Mike Joyner <i>(Hartree Partners / Bricks & Logic)</i></span> - <b>Predicting house prices without machine learning</b></p>
+                            <p class="presentation-description">
+                                When data quality is low and transparency and explainability is key, why a statistical based approach rather than traditional machine learning methods leads to more effective results.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p class="presentation-header"><span>Richard Bensley <i>(MariaDB)</i></span> - <b>Map, filter, and reduce, then and now</b></p>
+                            <p class="presentation-description">
+                                A quick look at what was originally implemented and how they have changed.
+                            </p>
+                        </li>
+
+                        </ol>
+                    </div>
+               
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-image">
+                <img src="images/ds_02.jpg" style="padding: 20px">
+            </div>
+            
+            <div class="post-main">
+
+                <div class="post-content">
+                    <div class="post-header">
+                        <h2>Informal Insights: Python & Data Science Meetup*</h2>
+                        <div class="ident">
+                            <div class="ident-block ident-block-blue"></div>
+                            <div class="ident-block ident-block-orange"></div>
+                            <div class="ident-block ident-block-blue"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="event-subheader">
+                        <div class="event-date">
+                            18th November 2024
+                        </div>
+
+                        <div><button class="show-hide-btn" onclick="showDetails(this)" data-show="false">show details</button></div>
+                    </div>
+                    
+                    <div class="event-details">
+                        <p class="event-heading event-detail">Details:</p>
+
+                        <p class="event-detail">
+                        If you're interested in all things Python/Data Science related then join us for an evening of talks and discussion.
+
+                        This is a very informal event where we will have a couple of 30 mins presentations (see details below) with plently of room for questions. Afterwards we'll take a trip to the local pub for anyone that wants to come along.
+                        </p>
+
+                        <p class="event-heading event-detail">Location:</p>
+
+                        <p class="event-detail">
+                        Artlist, 27 St Giles St, Norwich NR2 1JN (use buzzer no. 4)
+                        </p>
+
+                        <p class="event-heading event-detail">Event outline:</p>
+
+                        <ul class="event-detail">
+                        <li>5.45 - 6.00 PM Arrival</li>
+                        <li>6.00 - 7.00 PM Talks + questions</li>
+                        <li>7.00 - 9.00 Pub visit (location TBD)</li>
+                        </ul>
+
+                        <p class="event-heading">Presentations:</p>
+
+                        <ol>
+                        <li>
+                            <p class="presentation-header"><span>Matt Brookson <i>(Artlist)</i></span> - <b>AI with extra fries</b></p>
+                            <p class="presentation-description">
+                                Order fast food with the help of OpenAI and function calling. A fun guide to leveraging the OpenAI Python API to make applications.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p class="presentation-header"><span>Isaac Bowers-Barnard <i>(Aviva)</i></span> - <b>RL and Insurance Pricing</b></p>
+                            <p class="presentation-description">
+                                A brief primer on reinforcement learning and its applications on pricing retail insurance on price comparison sites.
+                            </p>
+                        </li>
+
+                        </ol>
+                    </div>
+               
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-image">
+                <img src="images/ds_02.jpg" style="padding: 20px">
+            </div>
+            
+            <div class="post-main">
+
+                <div class="post-content">
+                    <div class="post-header">
+                        <h2>Informal Insights: Python & Data Science Meetup*</h2>
+                        <div class="ident">
+                            <div class="ident-block ident-block-blue"></div>
+                            <div class="ident-block ident-block-orange"></div>
+                            <div class="ident-block ident-block-blue"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="event-subheader">
+                        <div class="event-date">
+                            23rd September 2024
+                        </div>
+
+                        <div><button class="show-hide-btn" onclick="showDetails(this)" data-show="false">show details</button></div>
+                    </div>
+                    
+                    <div class="event-details">
+                        <p class="event-heading event-detail">Details:</p>
+
+                        <p class="event-detail">
+                        If you're interested in all things Python/Data Science related then join us for an evening of talks and discussion.
+
+                        This is a very informal event where we will have a couple of 30 mins presentations (see details below) with plently of room for questions. Afterwards we'll take a trip to the local pub for anyone that wants to come along.
+                        </p>
+
+                        <p class="event-heading event-detail">Location:</p>
+
+                        <p class="event-detail">
+                        Artlist, 27 St Giles St, Norwich NR2 1JN (use buzzer no. 4)
+                        </p>
+
+                        <p class="event-heading event-detail">Event outline:</p>
+
+                        <ul class="event-detail">
+                        <li>5.45 - 6.00 PM Arrival</li>
+                        <li>6.00 - 7.00 PM Talks + questions</li>
+                        <li>7.00 - 9.00 Pub visit (location TBD)</li>
+                        </ul>
+
+                        <p class="event-heading">Presentations:</p>
+
+                        <ol>
+                        <li>
+                            <p class="presentation-header"><span>Mark Harvey <i>(Maplecroft)</i></span> - <b>Generating reliable libraries (with uv and nox)</b></p>
+                            <p class="presentation-description">An overview of how to ensure reliable backwards compatible libraries with tooling such as uv and nox.</p>
+                        </li>
+
+                        <li>
+                            <p class="presentation-header"><span>Yogi Louise Bear <i>(Freelance Machine Learning Engineer)</i></span> - <b>Using NLP, graph theory, and qualitative approaches to identify markers of radicalisation in online conversations</b></p>
+                            <p class="presentation-description">
+                                This talk will summarise a recent machine learning project which sought to recognise the roles individuals play in online conversations that lead to either radicalisation or the incitation of violence at large-scale events such as protests. The intention is to understand how extreme online discord operates with a view to using the information to prevent future negative events.
+                            </p>
+                        </li>
+
+                        </ol>
+                    </div>
+               
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-image">
+                <img src="images/ds_02.jpg" style="padding: 20px">
+            </div>
+            
+            <div class="post-main">
+
+                <div class="post-content">
+                    <div class="post-header">
+                        <h2>Informal Insights: Python & Data Science Meetup*</h2>
+                        <div class="ident">
+                            <div class="ident-block ident-block-blue"></div>
+                            <div class="ident-block ident-block-orange"></div>
+                            <div class="ident-block ident-block-blue"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="event-subheader">
+                        <div class="event-date">
+                            20th May 2024
+                        </div>
+
+                        <div><button class="show-hide-btn" onclick="showDetails(this)" data-show="false">show details</button></div>
+                    </div>
+                    
+                    <div class="event-details">
+                        <p class="event-heading event-detail">Details:</p>
+
+                        <p class="event-detail">
+                        If you're interested in all things Python/Data Science related then join us for an evening of talks and discussion.
+
+                        This is a very informal event where we will have a couple of 30 mins presentations (see details below) with plently of room for questions. Afterwards we'll take a trip to the local pub for anyone that wants to come along.
+                        </p>
+
+                        <p class="event-heading event-detail">Location:</p>
+
+                        <p class="event-detail">
+                        Artlist, 27 St Giles St, Norwich NR2 1JN (use buzzer no. 4)
+                        </p>
+
+                        <p class="event-heading event-detail">Event outline:</p>
+
+                        <ul class="event-detail">
+                        <li>5.45 - 6.00 PM Arrival</li>
+                        <li>6.00 - 7.00 PM Talks + questions</li>
+                        <li>7.00 - 9.00 Pub visit (location TBD)</li>
+                        </ul>
+
+                        <p class="event-heading">Presentations:</p>
+
+                        <ol>
+                        <li>
+                            <p class="presentation-header"><span>Kev Sturman <i>(Kaarbontech)</i></span> - <b>Harnessing the Power of Infrastructure as Code: Building with AWS CDK and Python</b></p>
+                            <p class="presentation-description">Explore the capabilities of AWS Cloud Development Kit (CDK) with Python, define and deploy cloud infrastructure using code.</p>
+                        </li>
+
+                        <li>
+                            <p class="presentation-header"><span>Chris Ballard <i>(Justified AI)</i></span> - <b>Few shot learning with SetFit</b></p>
+                            <p class="presentation-description">Training a machine learning model normally requires labelled data. In this talk, Chris will talk about how you can train a model when labelled data is scarce, discussing the different techniques that can be used in this situation. He will introduce an approach called SetFit and how it can be used to train models that can be efficiently deployed in production.</p>    
+                        </li>
+
+                        </ol>
+                    </div>
+               
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-image">
+                <img src="images/ds_02.jpg" style="padding: 20px">
+            </div>
+            
+            <div class="post-main">
+
+                <div class="post-content">
+                    <div class="post-header">
+                        <h2>Informal Insights: Python & Data Science Meetup*</h2>
+                        <div class="ident">
+                            <div class="ident-block ident-block-blue"></div>
+                            <div class="ident-block ident-block-orange"></div>
+                            <div class="ident-block ident-block-blue"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="event-subheader">
+                        <div class="event-date">
+                            25th March 2024
+                        </div>
+
+                        <div><button class="show-hide-btn" onclick="showDetails(this)" data-show="false">show details</button></div>
+                    </div>
+                    
+                    <div class="event-details">
+                        <p class="event-heading event-detail">Details:</p>
+
+                        <p class="event-detail">
+                        If you're interested in all things Python/Data Science related then join us for an evening of talks and discussion.
+
+                        This is a very informal event where we will have a couple of 30 mins presentations (see details below) with plently of room for questions. Afterwards we'll take a trip to the local pub for anyone that wants to come along.
+                        </p>
+
+                        <p class="event-heading event-detail">Location:</p>
+
+                        <p class="event-detail">
+                        Artlist, 27 St Giles St, Norwich NR2 1JN (use buzzer no. 4)
+                        </p>
+
+                        <p class="event-heading event-detail">Event outline:</p>
+
+                        <ul class="event-detail">
+                        <li>5.45 - 6.00 PM Arrival</li>
+                        <li>6.00 - 7.00 PM Talks + questions</li>
+                        <li>7.00 - 9.00 Pub visit (location TBD)</li>
+                        </ul>
+
+                        <p class="event-heading">Presentations:</p>
+
+                        <ol>
+                        <li>
+                            <p class="presentation-header"><span>Richard Bensley <i>(Vettabase Ltd)</i></span> - <b>Extending Python using Golang</b></p>
+                            <p class="presentation-description">What is Go, why is it useful how can it be integrated into your Python projects?</p>
+                        </li>
+
+                        <li>
+                            <p class="presentation-header"><span>Chris Joyner <i>(Artlist)</i></span> - <b>Migrating from Pandas to DuckDB/Polars.</b></p>
+                            <p class="presentation-description">What are the DuckDB and Polars libraries used for data analysis/manipulation and why might they be preferable to Pandas?</p>    
+                        </li>
+
+                        </ol>
+                    </div>
+               
+                </div>
+            
+            </div>
+        </div>
+
+        <div class="container" style="margin-bottom: 30px;">
+            *Events previously held under the Data Science Norfolk group.
+        </div>
+    </div>
+
+    <script src="js/utils.js">
+    </script>
+
+
+    </body>
+</html>
